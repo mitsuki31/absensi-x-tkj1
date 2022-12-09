@@ -1,20 +1,30 @@
 # **ABSENSI [ X TKJ 1 ]**
 
 ### Options code for *main.py*
+> ***Display all info absence data***
+    
     all_info()
-> ***Display all info absence class data***
+
+> ***Display all absence data***
 
     absences()
-> ***Display all absence class data***
+
+
+> ***Display info of absence data***
 
     absences_info()
-> ***Display info absence class data***
+
+
+> ***Total of students in absence data***
 
     total_students()
-> ***Count total of students in absence data***
 
-    absences_month()
+
 > ***Display month of absence data created***
 
-    header_class()
+    absences_month()
+
+
 > ***Display head of class name***
+
+    header_class()
