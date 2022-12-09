@@ -1,5 +1,5 @@
-# **ABSENSI [ X TKJ 1 ]**
-
+# **ABSENSI [ X TKJ 1 ] SMK SUKAMANDI**
+### ***Month/Year : October 2022***
 ### Options code for *main.py*
 > ***Display all info absence data***
     
