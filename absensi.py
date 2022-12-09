@@ -34,13 +34,6 @@ max_alfa = absence['Alfa'].max()
 all_alfa = [max_alfa, (absence[(absence['Alfa'] < max_alfa) & (absence['Alfa'] != 0)]['Alfa'].values[0])]
     
 choice = ['Presence', 'Permite', 'Sick', 'Alfa']
-'''
-highest = {
-              # -> dtypes = object
-              'sick': absence.loc[max_sick]['Name'],
-              'permite': absence.loc[max_permite]['Name'],
-              'alfa': absence.loc[max_alfa]['Name']
-          }'''
     
 # -- Lowest Presence Name
 presence_low = absence[absence['Presence'] == min_presence]['Name']
@@ -124,7 +117,7 @@ def _show(set = False, index: int = 0):
         if not set:
             return 1
         else:
-            import _matplotlib.pyplot as plt
+            import matplotlib.pyplot as plt
         
         ## ::: Settings Data Visual ::: ##
         plt.figure(figsize=[9*2, 24])  # -> Figure size (x, y)
